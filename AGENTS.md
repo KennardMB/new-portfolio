@@ -68,9 +68,9 @@ app/ or src/       ← site code (add when scaffolded)
 
 Fill in once the stack is scaffolded:
 
-- **Dev:** _(TBD)_
-- **Build:** _(TBD)_
-- **Deploy:** _(TBD)_
+- **Dev:** `python3 -m http.server 4173` from `site/` → http://127.0.0.1:4173
+- **Build:** none. The site is static HTML and CSS in `site/`.
+- **Deploy:** serve `site/` as the web root.
 
 ---
 

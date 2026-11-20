@@ -1,0 +1,346 @@
+/* Catalog. Restyle from these tokens. */
+
+@font-face {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/baskerville-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/baskerville-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Libre Baskerville";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/baskerville-400i.woff2") format("woff2");
+}
+
+:root {
+  --ink: #1a1a1a;
+  --body: #3a3a3a;
+  --quiet: #5c5c5c;
+  --rule: #1a1a1a;
+  --hair: #c8c8c8;
+  --paper: #fff;
+  --plate: 20.5rem;
+  --measure: 66rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: var(--measure);
+  padding: 0 1.5rem 4.5rem;
+  background: var(--paper);
+  color: var(--body);
+  font-family: "Libre Baskerville", "Liberation Serif", "Palatino Linotype", Palatino, serif;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  text-rendering: optimizeLegibility;
+}
+
+.skip {
+  position: absolute;
+  left: 1rem;
+  top: 0;
+  transform: translateY(-120%);
+  background: var(--ink);
+  color: var(--paper);
+  padding: 0.4rem 0.7rem;
+  z-index: 2;
+}
+
+.skip:focus {
+  transform: none;
+}
+
+a {
+  color: var(--ink);
+}
+
+a:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+
+.mast {
+  padding: 4.5rem 0 1.75rem;
+  border-bottom: 1px solid var(--rule);
+  text-align: center;
+}
+
+.wordmark {
+  margin: 0;
+  color: var(--ink);
+  font-size: clamp(1.65rem, 3.6vw, 2.15rem);
+  font-weight: 400;
+  letter-spacing: 0.22em;
+  text-indent: 0.22em;
+  line-height: 1.2;
+}
+
+.dek {
+  max-width: 34rem;
+  margin: 1.1rem auto 0;
+  color: var(--body);
+  font-size: 0.98rem;
+  line-height: 1.55;
+}
+
+.toc {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.35rem 0;
+  margin: 1.6rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.toc li {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.toc li:not(:last-child)::after {
+  content: "·";
+  margin: 0 0.7rem;
+  color: var(--ink);
+}
+
+.toc a {
+  color: var(--ink);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) var(--plate);
+  column-gap: 3rem;
+  align-items: start;
+  scroll-margin-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  padding: 2.4rem 0 1.6rem;
+}
+
+.game:first-of-type {
+  border-top: 0;
+}
+
+.copy h2 {
+  margin: 0.15rem 0 0.45rem;
+  color: var(--ink);
+  font-size: clamp(1.7rem, 3vw, 2.05rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+.pitch {
+  margin: 0 0 1.05rem;
+  color: var(--ink);
+  font-size: 1.12rem;
+  font-style: italic;
+  line-height: 1.45;
+}
+
+.copy p {
+  margin: 0 0 0.95rem;
+  text-wrap: pretty;
+}
+
+.mark {
+  position: relative;
+  margin: 1.15rem 0 1.15rem;
+  padding-left: 1.35rem;
+  color: var(--ink);
+}
+
+.star {
+  position: absolute;
+  left: 0;
+  top: 0.28rem;
+  display: block;
+  width: 13px;
+  height: 13px;
+}
+
+.files {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0 0 1.1rem;
+}
+
+a.file,
+a.file:visited {
+  display: inline-block;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.22rem 0.72rem 0.28rem;
+  border-radius: 2px;
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+
+a.file:hover {
+  background: #000;
+}
+
+.notes {
+  margin: 0.2rem 0 0.4rem;
+}
+
+.notes summary {
+  width: fit-content;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.notes summary:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.notes dl {
+  margin: 0.75rem 0 0;
+  padding: 0.15rem 0 0.35rem;
+  border-top: 1px dotted var(--hair);
+  border-bottom: 1px dotted var(--hair);
+}
+
+.notes div {
+  display: grid;
+  grid-template-columns: 8.25rem minmax(0, 1fr);
+  gap: 0.35rem 0.75rem;
+  padding: 0.38rem 0;
+}
+
+.notes dt {
+  margin: 0;
+  color: var(--ink);
+  font-size: 0.92rem;
+}
+
+.notes dd {
+  margin: 0;
+  color: var(--quiet);
+  font-size: 0.92rem;
+}
+
+.shot {
+  margin: 0;
+}
+
+.when {
+  margin: 0.2rem 0 0.7rem;
+  text-align: right;
+  font-size: 0.98rem;
+  color: var(--body);
+}
+
+.plate {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+}
+
+.colophon {
+  margin-top: 0.5rem;
+}
+
+.colophon hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 0 0 0.35rem;
+}
+
+.colophon footer {
+  border-top: 1px solid var(--rule);
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.colophon p {
+  margin: 0.35rem 0;
+}
+
+.colophon nav {
+  margin-top: 0.8rem;
+}
+
+.colophon nav a + a {
+  margin-left: 1.25rem;
+}
+
+@media (max-width: 800px) {
+  body {
+    padding: 0 1.15rem 3rem;
+  }
+
+  .mast {
+    padding-top: 2.75rem;
+  }
+
+  .wordmark {
+    letter-spacing: 0.14em;
+    text-indent: 0.14em;
+  }
+
+  .game {
+    grid-template-columns: 1fr;
+    row-gap: 1.15rem;
+    padding-top: 1.8rem;
+  }
+
+  .shot {
+    order: -1;
+  }
+
+  .when {
+    text-align: left;
+    margin-bottom: 0.45rem;
+  }
+
+  .plate {
+    max-width: 28rem;
+  }
+
+  .notes div {
+    grid-template-columns: 1fr;
+    gap: 0.1rem;
+    padding: 0.5rem 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .toc {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.45rem;
+  }
+
+  .toc li:not(:last-child)::after {
+    content: none;
+  }
+}
