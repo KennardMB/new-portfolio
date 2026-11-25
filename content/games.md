@@ -48,6 +48,7 @@ Previous site brief (PM / macOS window) is still `brief/2026-09-05-portfolio-sit
 - Design: Kennard Mahib, Amanda Dorotea. Art: Danu Raditya, Natchaya Futragoon. Code: Mark Pardede, Owen Limantoro.
 - The itch page marks the code as AI-assisted.
 - Link: https://seedacademy.itch.io/space-opurrator-game
+- Media on the page is what Kean supplied on 25 November 2026: a demo of the ready screen through the cockpit, and the pixel title screen. Do not swap them for other Space Opurrator art.
 
 ## Woohooland
 
