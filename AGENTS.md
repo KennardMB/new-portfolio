@@ -48,7 +48,6 @@ Categorize by **what it is**, then by company/name when needed. All formats for 
 ```
 AGENTS.md          ← this file (agent operating guide)
 CLAUDE.md          ← mirror pointer for Claude Code
-cv/<company>/      ← CVs (pdf + docx together), e.g. cv/agoda/
 brief/             ← site brief, IA, design tokens, prompts
 content/           ← case studies / project entries (markdown)
 context/           ← dated changelogs only (YYYY-MM-DD-context.md)
@@ -56,11 +55,10 @@ public/            ← site static assets (images, favicons) once the site exist
 app/ or src/       ← site code (add when scaffolded)
 ```
 
-- `cv/` — Every CV cut. Subfolder per company (`cv/agoda/`). PDF and DOCX stay in the same folder. Do not split by file type across trees.
 - `brief/` — Locked product/design docs.
 - `content/` — Case-study / project write-ups.
 - `context/` — Append-only history of what changed. Latest file by date wins.
-- `public/` — Assets the live site serves (not a place to hide company CVs).
+- `public/` — Assets the live site serves.
 
 ---
 
@@ -78,6 +76,6 @@ Fill in once the stack is scaffolded:
 
 - Invent a new visual system when a brief already exists in `brief/`.
 - Ship a light-mode toggle unless Kean asks.
-- Publish phone number or private scholarship docs.
+- Commit a CV, a phone number, or private scholarship docs. They do not belong in this repo.
 - Treat `../2026-09-06 Portofolio` as the working tree for this project.
 - Overwrite `context/` files — always add a new dated snapshot.
