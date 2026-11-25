@@ -55,3 +55,4 @@ Previous site brief (PM / macOS window) is still `brief/2026-09-05-portfolio-sit
 - Kean named it on 2026-11-20 as ongoing.
 - Media on the page is what he supplied on 25 November 2026: a 25-second demo, a burning-frame still, and a night-fair still. Do not swap them.
 - There is still no written pitch and no team list. Do not invent either from the demo.
+- Link: https://maxsquaredstudio.itch.io/woohooland. Kean named this the itch page on 25 November 2026.
