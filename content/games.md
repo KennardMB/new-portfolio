@@ -12,6 +12,7 @@ Previous site brief (PM / macOS window) is still `brief/2026-09-05-portfolio-sit
 - Also, from the locked brief: Notion and bots for asset publishing, FGDs and data on new-user experience, a newbie AI-tips bot, anti-cheat monitoring for the Indonesian community.
 - Later work on modes, updates, and features is his, and the specifics are not public. Do not name modes.
 - Sources: `brief/2026-09-05-portfolio-site-brief.md`. His LinkedIn post, 15 July 2026.
+- Screenshots on the page are the two images Kean supplied on 25 November 2026: the lobby with the preset panel open, and the Solara map. Do not swap them for other Free Fire art.
 
 ## Robbin
 

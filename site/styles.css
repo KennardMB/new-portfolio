@@ -249,6 +249,10 @@ a.file:hover {
   background: var(--paper);
 }
 
+.shot .plate + .plate {
+  margin-top: 0.65rem;
+}
+
 .plate text {
   font-family: var(--font-display);
 }
