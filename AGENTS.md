@@ -68,7 +68,7 @@ Fill in once the stack is scaffolded:
 
 - **Dev:** `python3 -m http.server 4173` from `site/` → http://127.0.0.1:4173
 - **Build:** none. The site is static HTML and CSS in `site/`.
-- **Deploy:** serve `site/` as the web root.
+- **Deploy:** GitHub Pages from `site/`, via `.github/workflows/pages.yml`. Live URL: https://kennardmb.github.io/new-portfolio/
 
 ---
 
