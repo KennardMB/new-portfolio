@@ -67,6 +67,15 @@ summary:focus-visible {
   text-align: center;
 }
 
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.35rem 1.25rem;
+  margin: 0 0 1.35rem;
+  font-size: 0.95rem;
+}
+
 .wordmark {
   margin: 0;
   color: var(--ink);
@@ -280,14 +289,6 @@ a.file:hover {
 
 .colophon p {
   margin: 0.35rem 0;
-}
-
-.colophon nav {
-  margin-top: 0.8rem;
-}
-
-.colophon nav a + a {
-  margin-left: 1.25rem;
 }
 
 @media (max-width: 800px) {
