@@ -53,4 +53,5 @@ Previous site brief (PM / macOS window) is still `brief/2026-09-05-portfolio-sit
 ## Woohooland
 
 - Kean named it on 2026-11-20 as ongoing.
-- No public pitch, build, team, or screenshot was found. Do not invent any of those.
+- Media on the page is what he supplied on 25 November 2026: a 25-second demo, a burning-frame still, and a night-fair still. Do not swap them.
+- There is still no written pitch and no team list. Do not invent either from the demo.
