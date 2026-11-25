@@ -53,7 +53,9 @@ Previous site brief (PM / macOS window) is still `brief/2026-09-05-portfolio-sit
 
 ## Woohooland
 
-- Kean named it on 2026-11-20 as ongoing.
+- Kean named it on 2026-11-20 as ongoing. On 25 November 2026 he asked for the description to come from the itch page. That page lists it as released.
+- Pitch on the itch page: “Fun theme park. But.. is it?” The park is Woohoo Land. The player is Ruckus, a spirit who possesses visitors and staff to bring the Ferris wheel down.
+- Role on that page: Kennard Mahib, game and level designer. Team: Amanda Dorotea (game and UI), Danu Raditya (art), Anthony Martin (sound), Aulia Agustina and Mark Pardede (programming). Studio: Max² Studio. Mentor named there: Ruanth Thijssen.
+- Unity, HTML5, puzzle. The page says no generative AI was used. Controls can be changed under Options > Game Control. Tab shows objectives. Esc pauses. Best in a desktop browser with a keyboard.
 - Media on the page is what he supplied on 25 November 2026: a 25-second demo, a burning-frame still, and a night-fair still. Do not swap them.
-- There is still no written pitch and no team list. Do not invent either from the demo.
 - Link: https://maxsquaredstudio.itch.io/woohooland. Kean named this the itch page on 25 November 2026.
