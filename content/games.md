@@ -36,6 +36,7 @@ Previous site brief (PM / macOS window) is still `brief/2026-09-05-portfolio-sit
 - Team: Danu Raditya (art), Marleen Pangestu (UI and art), Anabel Oklana (narrative), Owen Limantoro and Mark Lorens (development).
 - The itch page marks the code as AI-assisted.
 - Link: https://seedacademy.itch.io/firas-pursuit
+- Media on the page is what Kean supplied on 25 November 2026: a four-second demo, a glide still, and a corridor still. Do not swap them for other Fira art.
 
 ## Space Opurrator
 
