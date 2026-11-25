@@ -24,7 +24,7 @@ Previous site brief (PM / macOS window) is still `brief/2026-09-05-portfolio-sit
 - Team, as he credited them: Aileen Jane, Brent Allen Deverman, Fransiskus Risky Gawahi, Gusti Sandyaga Putra Wardhana, Kean.
 - IGDX 2026. His count: hundreds of people over three days, about 140 wishlists. Interviewed by the Ministry of Communication and Digital Affairs.
 - Links: App Store id 6817290880. Instagram `@robbin.game`.
-- Media on the page is what Kean supplied on 25 November 2026: a phone recording of the game, then a clip of someone playing it by drawing with the free hand. Do not swap them.
+- Media on the page is what Kean supplied on 25 November 2026: a phone recording of the game, a clip of someone playing it by drawing with the free hand, and a booth photo. Do not swap them.
 - Sources: brief, LinkedIn post 8 November 2026, iTunes lookup.
 
 ## Fira’s Pursuit
